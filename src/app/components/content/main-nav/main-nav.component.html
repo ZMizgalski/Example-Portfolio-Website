@@ -1,0 +1,105 @@
+<div class="margin-deleter">
+  <web-loader></web-loader>
+  <p-sidebar class="side-nav" [(visible)]="sideNavOpened" position="right">
+    <ul class="side-nav__ul">
+      <button class="side-nav__ul__button" (click)="toggleSideNav(sideNavOpened)">
+        <i class="pi pi-times"></i>
+      </button>
+      <li class="side-nav__ul-li">
+        <a class="ul-li__a" [routerLink]="['/home']" (click)="toggleSideNav(sideNavOpened)">Home</a>
+      </li>
+      <li class="side-nav__ul-li">
+        <a class="ul-li__a" [routerLink]="['/contact']" (click)="toggleSideNav(sideNavOpened)"
+          >Contact</a
+        >
+      </li>
+      <li class="side-nav__ul-li">
+        <a class="ul-li__a" [routerLink]="['/about']" (click)="toggleSideNav(sideNavOpened)"
+          >About</a
+        >
+      </li>
+      <li class="side-nav__ul-li">
+        <a class="ul-li__a" [routerLink]="['/servieces']" (click)="toggleSideNav(sideNavOpened)"
+          >Servieces</a
+        >
+      </li>
+    </ul>
+  </p-sidebar>
+  <div class="nav-container">
+    <img class="logo" src="../../../../assets/pictures/white_logo.png" />
+    <ul class="nav-container__ul">
+      <li class="nav-container__ul-li">
+        <a class="ul-li__a" [routerLink]="['/home']">Home</a>
+      </li>
+      <li class="nav-container__ul-li">
+        <a class="ul-li__a" [routerLink]="['/contact']">Contact</a>
+      </li>
+      <li class="nav-container__ul-li">
+        <a class="ul-li__a" [routerLink]="['/about']">About</a>
+      </li>
+      <li class="nav-container__ul-li">
+        <a class="ul-li__a" [routerLink]="['/servieces']">Servieces</a>
+      </li>
+    </ul>
+    <button class="nav-container__button" (click)="toggleSideNav(sideNavOpened)">
+      <i class="pi pi-align-justify"></i>
+    </button>
+  </div>
+  <div class="main">
+    <div>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="left-footer-images-container">
+      <div class="footer-spacer">
+        <img class="logo" src="../../../../assets/pictures/white_logo.png" />
+      </div>
+      <div class="footer-image-container" style="background: #031f34">
+        <img class="footer_img" src="../../../../assets/pictures/call.png" />
+        <p class="footer-image-container__title">*** *** ***</p>
+      </div>
+      <div class="footer-image-container" style="background: #082338">
+        <img class="footer_img" src="../../../../assets/pictures/location.png" />
+        <div class="footer-localization-container">
+          <p class="localization-container__title">Street, number</p>
+          <p class="localization-container__subtitle">Localization</p>
+        </div>
+      </div>
+      <div class="footer-image-container" style="background: #08263c">
+        <img class="footer_img" src="../../../../assets/pictures/mail.png" />
+        <a href="mailto:jestem.dobry.fest@gmail.com" class="footer-image-container__email-title">
+          example.mail@gmail.com
+        </a>
+      </div>
+    </div>
+    <div class="right-footer-images-container">
+      <div class="about-footer-container">
+        <h3 class="about-footer-container__header">About</h3>
+        <p class="about-footer-container__title">Example content.</p>
+      </div>
+      <div class="right-images-footer-container">
+        <img
+          (click)="getFacebookPage()"
+          class="footer_img"
+          src="../../../../assets/pictures/facebook.png"
+        />
+        <img
+          (click)="getLinkedInPage()"
+          class="footer_img"
+          src="../../../../assets/pictures/linked_in.png"
+        />
+        <img
+          (click)="getTwitterkPage()"
+          class="footer_img"
+          src="../../../../assets/pictures/instagram.png"
+        />
+        <img
+          class="footer_img"
+          (click)="getInstagramPage()"
+          src="../../../../assets/pictures/twitter.png"
+        />
+      </div>
+    </div>
+  </div>
+</div>

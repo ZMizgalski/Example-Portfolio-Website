@@ -1,10 +1,14 @@
-import { Component } from '@angular/core';
+import { LoaderService } from './components/loader/loader.service';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'web-root',
+  template: `<web-main-nav></web-main-nav>`,
+  styles: ['* {transtion: 0.2s ease}'],
 })
-export class AppComponent {
-  title = 'PortfolioPage';
+export class AppComponent implements OnInit {
+  constructor(private loaderService: LoaderService) {}
+  ngOnInit(): void {
+    this.loaderService.show();
+  }
 }

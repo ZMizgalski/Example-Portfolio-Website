@@ -1,0 +1,45 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100vw);
+  flex-direction: column;
+  min-height: calc(92vh);
+  max-width: 100%;
+  background: url(../../../../assets/pictures/back-winter.jpg) no-repeat center
+    center;
+  font-family: "Nunito", sans-serif;
+  background-size: cover;
+  position: relative;
+}
+.main-container__header {
+  color: white;
+  font-size: calc(16px + (24 - 16) * (100vw - 400px) / (800 - 400));
+  text-transform: uppercase;
+  margin: 0;
+  word-break: break-all;
+}
+.main-container__description {
+  color: white;
+  text-transform: uppercase;
+  word-break: break-all;
+  font-size: calc(16px + (24 - 22) * (100vw - 400px) / (800 - 400));
+  max-width: 50vw;
+
+  min-width: 100px;
+}
+.main-container__button {
+  outline: none;
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  color: white;
+
+  padding: 1vw 4vw;
+  background: transparent;
+  border: 2px solid white;
+  transition: 0.5s ease-in-out;
+}
+.main-container__button:hover {
+  color: gray;
+  border: 2px solid gray;
+}

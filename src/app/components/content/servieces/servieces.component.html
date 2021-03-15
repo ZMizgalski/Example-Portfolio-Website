@@ -1,0 +1,18 @@
+<div class="main-container">
+  <div class="item-list-container">
+    <div class="service-item" *ngFor="let web of webs">
+      <div class="item-overlay">
+        <div class="overlay">
+          <button class="overlay__button" (click)="getLink(web.link)">
+            <div class="button__circle"></div>
+          </button>
+        </div>
+        <img class="service-item__img" src="../../../../assets/pictures/back_1.jpg" />
+      </div>
+      <div class="data-container">
+        <h2 class="service-item__title">{{ web.title }}</h2>
+        <p class="service-item__description">{{ web.descrition }}</p>
+      </div>
+    </div>
+  </div>
+</div>
