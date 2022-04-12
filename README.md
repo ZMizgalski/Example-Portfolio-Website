@@ -35,6 +35,11 @@ List the ready features here:
 
 # Screenshots
 
+![img](https://github.com/ZMizgalski/Example-Portfolio-Website/blob/master/imgs/1.png)
+![img](https://github.com/ZMizgalski/Example-Portfolio-Website/blob/master/imgs/2.png)
+![img](https://github.com/ZMizgalski/Example-Portfolio-Website/blob/master/imgs/3.png)
+![img](https://github.com/ZMizgalski/Example-Portfolio-Website/blob/master/imgs/4.png)
+![img](https://github.com/ZMizgalski/Example-Portfolio-Website/blob/master/imgs/5.png)
 
 ## Project Status
 Project is:  _complete_ .
