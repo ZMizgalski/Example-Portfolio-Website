@@ -1,27 +1,50 @@
-# PortfolioPage
+# Example-Portfolio-Website
+> Basic portfolio website made with Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Setup](#setup)
+* [Usage](#usage)
+* [Screenshots](#screenshots)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
+* [Contact](#contact)
+* [License](#license)
 
-## Development server
+## General Information
+- Custom desgin 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Technologies Used
+- Angular
+- PrimeNG
 
-## Code scaffolding
+## Features
+List the ready features here:
+- Responsive design
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Setup
+- npm i
+- Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Build
+## Usage
+1. Create a folder named you like.
+2. Inside your folder, open console and paste: `git clone https://github.com/ZMizgalski/Example-Portfolio-Website.git`
+3. Then you are ready to go just open it in any Editor. (I prefer VSCode) [Download here](https://code.visualstudio.com/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+# Screenshots
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Project Status
+Project is:  _complete_ .
 
-## Running end-to-end tests
+## Room for Improvement
+- Design
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Contact
+Created by [@zmizgalski](https://zmizgalski.github.io/) - feel free to contact me!
 
-## Further help
+## License
+This project is open source and available under the [... License](https://github.com/ZMizgalski/Example-Portfolio-Website/blob/master/LICENSE).
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
